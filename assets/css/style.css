@@ -1,0 +1,53 @@
+
+body{
+    Background-image: url('../images/topography.png');
+}
+
+header{
+    background:white;
+    height: 90px;
+    clear: both;
+    
+}
+
+#name{
+color:white;
+width: 250px;
+height: 100%;
+background: #4aaaa5;
+box-align: center;
+}
+
+a{
+    text-align: center;
+  color: #777777;
+}
+nav {
+  float: right;
+  
+}
+
+#content{
+    width: 960px;
+    margin-right: 477px;
+    margin-left: 477px;
+    background: white;
+}
+img{float:left;
+
+}
+p{
+    line-height: 36px;
+    
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background: #666666;
+    text-align: center;
+
+}
