@@ -1,7 +1,7 @@
-
+/* universal styles for all pages */
 body{
     Background-image: url('../images/topography.png');
-
+   
 }
 
 header{
@@ -20,13 +20,13 @@ header{
 
 .name{
 color:white;
-font-size:0.83vw;
+font-size:0.8vw;
 width: 15%;
 height: 100%;
 background: #4aaaa5;
 font-family: 'Georgia', Times, Times New Roman, serif;
 text-align: center;
-vertical-align: middle;
+
 position: relative;
 top: 0px;
 left: 25%;
@@ -34,10 +34,6 @@ display: inline-block;
 
 }
 
-a {
-    text-align: center;
-  color: #777777;
-}
 .navigation {
   float: right;
   margin-right: 25%;
@@ -51,11 +47,39 @@ a {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size:1vw;
     text-decoration: none;
+    text-align: center;
+    color: #777777;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
+    height: 6%;
+    color: white;
+    background: #666666;
+    text-align: center;
+    font-size:1vw;
+}
+.title{
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-top: 39px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+hr  {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 
+/* About page */
+
 .content{
-    width: 50%;
+    width: 920px;
     padding: 20px;
     position: relative;
     top: 15%;
@@ -71,8 +95,27 @@ a {
     min-height: 50%;
     
 }
+
+.profile {float:left;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+p{
+    line-height: 36px;
+    color: #777777;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* portfolio page*/
+
 .content2{
-    width: 50%;
+    width: 920px;
     padding: 20px;
     position: relative;
     top: 15%;
@@ -83,89 +126,10 @@ a {
     border-color: #dddddd;
     content: "";
     clear: both;
+    min-height: 50%
     
 
 }
-
-
-
-.profile {float:left;
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
-   
-}
-p{
-    line-height: 36px;
-    color: #777777;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.title{
-  color: #4aaaa5;
-  margin-left: 20px;
-  margin-top: 39px;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-}
-footer{
-    position:absolute;
-    bottom:0;
-    left: 0;
-    border-top: 10px solid #4aaaa5;
-    width: 100%;
-    height: 6%;
-    color: white;
-    background: #666666;
-    text-align: center;
-    font-size:1vw;
-}
-
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    
-}
-
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    
-    background-color: white;
-    width: 50%;
-    padding: 20px;
-    margin: auto;
-    position: relative;
-    top: 15%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-}
-
 .Portfolio {
     width: 200px;
     height: 150px;
@@ -175,8 +139,52 @@ input[type=submit]:hover {
     margin-bottom: 20px;
 }
 
-hr  {
-        height: 12px;
-        border: 0;
-        box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-    }
+
+
+
+/* Contact page */
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+}
+
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    
+    background-color: white;
+    width: 920px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    min-height: 50%
+}
+
+
